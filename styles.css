@@ -63,6 +63,16 @@ div.team-links a {
 	padding: 10px;
 	width: 350px;
 }
+div.team-links.team-links-country a {
+    position: relative;
+    padding-left: 40px;
+    width: 310px;
+}
+div.team-links a img {
+    height: 20px;
+    position: absolute;
+    left: 10px;
+}
 
 table.nav-table {
 	width: 100%;
@@ -142,7 +152,11 @@ table.division-club tbody tr.relegated {
     background-color: #ffbfbf;
 }
 table.division tbody tr.removed td:nth-of-type(1),
-table.division-club tbody tr.removed td:nth-of-type(2) {
+table.division-club tbody tr.removed td:nth-of-type(2),
+table.division tbody tr.relegated td:nth-of-type(1),
+table.division-club tbody tr.relegated td:nth-of-type(2),
+table.division tbody tr.promoted td:nth-of-type(1),
+table.division-club tbody tr.promoted td:nth-of-type(2) {
     position: relative;
 }
 table.division tbody tr.removed td:nth-of-type(1):after,
@@ -156,17 +170,27 @@ table.division-club tbody tr.removed td:nth-of-type(2):after {
     right: 9px;
     top: 9px;
 }
-table.division tbody tr.promoted td:nth-of-type(1) {
-    background-image: url('f/promoted.png');
-    background-position: center right 5px;
-    background-repeat: no-repeat;
-    background-size: 16px;
+table.division tbody tr.promoted td:nth-of-type(1):after ,
+table.division-club tbody tr.promoted td:nth-of-type(2):after{
+    content: "\f30c";
+    float: right;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    font-size: 0.8rem;
+    position: absolute;
+    right: 11px;
+    top: 9px;
 }
-table.division tbody tr.relegated td:nth-of-type(1) {
-    background-image: url('f/relegated.png');
-    background-position: center right 5px;
-    background-repeat: no-repeat;
-    background-size: 16px;
+table.division tbody tr.relegated td:nth-of-type(1):after,
+table.division-club tbody tr.relegated td:nth-of-type(2):after {
+    content: "\f309";
+    float: right;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    font-size: 0.8rem;
+    position: absolute;
+    right: 11px;
+    top: 9px;
 }
 table.division tbody tr.newclub td:nth-of-type(2):after {
     content: "\f005";
