@@ -96,7 +96,7 @@ table.nav-table .nolink {
 table.division {
     border-collapse: collapse;
     border: 1px solid #2b5873;
-    width: calc( 350px + 600px );
+    width: calc( 350px + 650px );
     margin-bottom: 10px;
 }
 table.division thead {
@@ -214,7 +214,7 @@ table.division tbody tr.returning td:nth-of-type(2):after {
 table.division-club {
     border-collapse: collapse;
     border: 1px solid #2b5873;
-    width: calc( 350px + 750px );
+    width: calc( 350px + 800px );
     margin-bottom: 10px;
 }
 table.division-club thead tr th,
