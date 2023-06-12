@@ -12,7 +12,7 @@ function mcr(p,w,d,l,f,a) {
     s += "<td>" + pts + "</td>";
     s += "<td>" + ((w/p)*100).toFixed(1) + "</td>";
     s += "<td>" + (f-a) + "</td>";
-    s += "<td>" + (f/a).toFixed(2) + "</td>";
+    s += "<td>" + (f/p).toFixed(2) + "</td>";
     s += "<td>" + (pts /p).toFixed(2) + "</td>";
     console.log(s);
 }
@@ -29,7 +29,7 @@ function mcrd(p,w,d,l,f,a,deduction) {
     s += "<td>" + pts + "</td>";
     s += "<td>" + ((w/p)*100).toFixed(1) + "</td>";
     s += "<td>" + (f-a) + "</td>";
-    s += "<td>" + (f/a).toFixed(2) + "</td>";
+    s += "<td>" + (f/p).toFixed(2) + "</td>";
     s += "<td>" + (pts /p).toFixed(2) + "</td>";
     console.log(s);
 }
@@ -75,4 +75,4 @@ divisions.forEach(function(d){
     });
 });
 ss.sort();
-console.log(ss.join("/n/n"));
+console.log(ss.join("\n\n"));
