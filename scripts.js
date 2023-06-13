@@ -1,4 +1,8 @@
-// https://en.wikipedia.org/wiki/Template:1890%E2%80%9391_in_European_football_(UEFA)
+/*
+https://en.wikipedia.org/wiki/Template:1892%E2%80%9393_in_European_football_(UEFA)
+
+https://en.wikipedia.org/wiki/1892%E2%80%9393_Scottish_Football_League
+*/
 
 function mcr(p,w,d,l,f,a) {
     pts = ((w*3)+d);
@@ -47,6 +51,9 @@ divisions.forEach(function(d){
         cols = r.querySelectorAll("td");
         s += cols[1].querySelector("img").getAttribute("src").split("/").pop().split(".")[0].toLowerCase() + "/" + cols[1].querySelector("a").getAttribute("href").split("/").pop() + " / " + cols[1].querySelector("a").innerHTML + "\n";
         rowClasses = [];
+        if ( r.classList.contains("newclub") ) {
+            s = "NEW\n" + s;
+        }
         if ( r.classList.contains("removed") ) {
             rowClasses.push("removed");
         }
