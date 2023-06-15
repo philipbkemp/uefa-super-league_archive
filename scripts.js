@@ -1,9 +1,6 @@
 /*
 https://en.wikipedia.org/wiki/Template:1892%E2%80%9393_in_European_football_(UEFA)
-
-https://en.wikipedia.org/wiki/1892%E2%80%9393_Scottish_Football_League
 */
-
 function mcr(p,w,d,l,f,a) {
     pts = ((w*3)+d);
     s = "";
