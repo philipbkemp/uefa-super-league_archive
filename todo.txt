@@ -1,9 +1,10 @@
-https://en.wikipedia.org/wiki/Template:1901%E2%80%9302_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1902%E2%80%9303_in_European_football_(UEFA)
 
 
 BELGIUM			split
 DENMARK			/							/
 ENGLAND			/							/
+GERMANY			knockout
 HUNGARY			take first year		/
 ITALY				knockout
 NETHERLANDS	regional
