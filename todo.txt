@@ -1,6 +1,12 @@
-https://en.wikipedia.org/wiki/Template:1899%E2%80%931900_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1901%E2%80%9302_in_European_football_(UEFA)
 
-ITALY				Knockout until 1909-10
-NETHERLANDS	Regional divisions until 1956-57
-SWITZERLAND	Regional divisions until 1933-34
-HUNGARY			1901 season is for 1901-02				xx00 => xx00/01
+
+BELGIUM			split
+DENMARK			/							/
+ENGLAND			/							/
+HUNGARY			take first year		/
+ITALY				knockout
+NETHERLANDS	regional
+IRELAND			/							/
+SCOTLAND			/							/
+SWITZERLAND	regional
