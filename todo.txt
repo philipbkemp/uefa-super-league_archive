@@ -1,13 +1,13 @@
-https://en.wikipedia.org/wiki/Template:1903%E2%80%9304_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1905%E2%80%9306_in_European_football_(UEFA)
 
-
-BELGIUM			split
-DENMARK			/							/
-ENGLAND			/							/
+BELGIUM			/							https://en.wikipedia.org/wiki/1905%E2%80%9306_Belgian_First_Division
+DENMARK			/							https://en.wikipedia.org/wiki/1905%E2%80%9306_KBUs_Fodboldturnering
+ENGLAND			/							https://en.wikipedia.org/wiki/1905%E2%80%9306_Football_League
 GERMANY			knockout
-HUNGARY			take first year		/
+GREECE				unofficial
+HUNGARY			take first year		https://en.wikipedia.org/wiki/1905_Nemzeti_Bajnoks%C3%A1g_I
 ITALY				knockout
 NETHERLANDS	regional
-IRELAND			/							/
-SCOTLAND			/							/
+IRELAND			/							https://en.wikipedia.org/wiki/1905%E2%80%9306_Irish_League
+SCOTLAND			/							https://en.wikipedia.org/wiki/1905%E2%80%9306_Scottish_Division_One
 SWITZERLAND	regional
