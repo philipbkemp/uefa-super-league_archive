@@ -44,7 +44,7 @@ divisions.forEach(function(d) {
 	s.push('\t\t<table class="division">\n\t\t\t<thead>'+d.querySelectorAll("thead")[0].innerHTML+'</thead>\n\t\t\t<tbody>\n');
 	rows = d.querySelectorAll("tbody tr");
 	rows.forEach(function(r){
-		s.push('\t\t\t\t<tr>');
+		s.push('\t\t\t\t<tr class="">');
 		s.push('\t\t\t\t\t'+r.innerHTML);
 		s.push('\t\t\t\t</tr>\n');
 	});

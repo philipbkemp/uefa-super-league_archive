@@ -3,11 +3,9 @@ divisions = document.querySelectorAll("table.division");
 year = document.querySelector("h1").innerHTML.split(" ").pop();
 u = window.location.href.split("/")
 yearLink = "../../"+u[7]+"/"+u[8]+"/"+u[9];
-divList = [];
 divisions.forEach(function(d){
     leagueName = d.querySelector("thead th").innerHTML.split(" ")[1];
     rows = d.querySelectorAll("tbody tr");
-    divList.push([leagueName,rows.length]);
     rows.forEach(function(r){
         s = "";
         cols = r.querySelectorAll("td");
@@ -44,5 +42,4 @@ divisions.forEach(function(d){
     });
 });
 ss.sort();
-ss = [ ...divList , ...ss ];
 console.log(ss.join("\n\n"));

@@ -4,6 +4,9 @@ function sortTable(index) {
   var rows = Array.from(tbody.rows);
 
   rows.sort(function (a, b) {
+    if ( a.cells.length < 10 || b.cells.length < 10) {
+      return 0;
+    }
     var valueA_PPG = parseFloat(a.cells[12].textContent);
     var valueB_PPG = parseFloat(b.cells[12].textContent);
 
@@ -37,8 +40,11 @@ s = [];
 divisions.forEach(function(d) {
   s.push('\t\t<table class="division">\n\t\t\t<thead>'+d.querySelectorAll("thead")[0].innerHTML+'</thead>\n\t\t\t<tbody>\n');
   rows = d.querySelectorAll("tbody tr");
+  pos = 1;
   rows.forEach(function(r){
-    s.push('\t\t\t\t<tr>');
+    s.push('\t\t\t\t<tr class="'+r.classList+'">');
+    r.querySelectorAll("td")[0].innerHTML = pos;
+    pos++;
     s.push('\t\t\t\t\t'+r.innerHTML.trim());
     s.push('\t\t\t\t</tr>\n');
   });
