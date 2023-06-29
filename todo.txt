@@ -1,13 +1,13 @@
 https://en.wikipedia.org/wiki/Template:1906%E2%80%9307_in_European_football_(UEFA)
 
-BELGIUM			/							https://en.wikipedia.org/wiki/1906%E2%80%9307_Belgian_First_Division
-DENMARK			/							https://en.wikipedia.org/wiki/1906%E2%80%9307_KBUs_A-r%C3%A6kke
-ENGLAND			/							https://en.wikipedia.org/wiki/1906%E2%80%9307_Football_League
+BELGIUM			/							/
+DENMARK			/							/
+ENGLAND			/							/
 GERMANY			knockout
 GREECE				unclear
-HUNGARY			take first year		https://en.wikipedia.org/wiki/1906%E2%80%9307_Nemzeti_Bajnoks%C3%A1g_I
+HUNGARY			take first year		/
 ITALY				knockout
 NETHERLANDS	regional
-IRELAND			/							https://en.wikipedia.org/wiki/1906%E2%80%9307_Irish_League
-SCOTLAND			/							https://en.wikipedia.org/wiki/1906%E2%80%9307_Scottish_Division_One
+IRELAND			/							/
+SCOTLAND			/							/
 SWITZERLAND	regional
