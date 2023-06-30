@@ -1,14 +1,27 @@
-https://en.wikipedia.org/wiki/Template:1908%E2%80%9309_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1909%E2%80%9310_in_European_football_(UEFA)
 
-BELGIUM			/										/
-DENMARK			/										/
-ENGLAND			/										/
-GERMANY			knockout		1963/64
-GREECE				unclear			1921/22
-						regional			1959/60
-HUNGARY			/										/
-ITALY				knockout		1909/10
-NETHERLANDS	regional			1956/57
-IRELAND			/										/
-SCOTLAND			/										/
+BELGIUM						/
+DENMARK						/
+ENGLAND						/
+GERMAY						/
+GREECE							/
+HUNGARY						/
+ITALY							/
+LUXEMBOURG				/
+MALTA							/
+NETHERLANDS				/
+IRELAND						/
+ROMANIA						/
+SCOTLAND						/
+SWEDEN						/
+SWITZERLAND				/
+
+country=====	exlusion===	return===
+SWEDEN			single-year		1910/11
+LUXEMBOURG	unreliable		1914/15+
+LUXEMBOURG	groups			1915/16
+GREECE				unclear			1921/22+
 SWITZERLAND	regional			1933/34
+NETHERLANDS	regional			1956/57
+GREECE				regional			1959/60
+GERMANY			knockout		1963/64
