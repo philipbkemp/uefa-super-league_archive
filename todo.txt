@@ -1,14 +1,14 @@
 https://en.wikipedia.org/wiki/Template:1908%E2%80%9309_in_European_football_(UEFA)
 
-BELGIUM			/										https://en.wikipedia.org/wiki/1908%E2%80%9309_Belgian_First_Division
-DENMARK			/										https://en.wikipedia.org/wiki/1908%E2%80%9309_KBUs_A-r%C3%A6kke
-ENGLAND			/										https://en.wikipedia.org/wiki/1908%E2%80%9309_Football_League
+BELGIUM			/										/
+DENMARK			/										/
+ENGLAND			/										/
 GERMANY			knockout		1963/64
 GREECE				unclear			1921/22
 						regional			1959/60
-HUNGARY			/										https://en.wikipedia.org/wiki/1908%E2%80%9309_Nemzeti_Bajnoks%C3%A1g_I
+HUNGARY			/										/
 ITALY				knockout		1909/10
 NETHERLANDS	regional			1956/57
-IRELAND			/										https://en.wikipedia.org/wiki/1908%E2%80%9309_Irish_League
-SCOTLAND			/										https://en.wikipedia.org/wiki/1908%E2%80%9309_Scottish_Division_One
+IRELAND			/										/
+SCOTLAND			/										/
 SWITZERLAND	regional			1933/34

@@ -21,6 +21,9 @@ function sortTable(index) {
       } else {
         var valueA_GD = parseFloat(a.cells[10].textContent);
         var valueB_GD = parseFloat(b.cells[10].textContent);
+        if ( valueB_GD === valueA_GD ) {
+          alert("NEED ANOTHER SORTING LEVEL");
+        }
 
         return valueB_GD - valueA_GD; // Sort by column 3, highest value first
       }
