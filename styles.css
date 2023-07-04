@@ -162,13 +162,15 @@ table.division tbody tr.champion,
 table.division-club tbody tr.champion {
     background-color: #fff7cc;
 }
-table.division tbody tr.promoted:not(.champion) {
+table.division tbody tr.promoted:not(.champion),
+table.league-history tr.added {
     background-color: #d1e8d1;
 }
 table.division tbody tr.removed:not(.champion),
 table.division tbody tr.relegated:not(.champion),
 table.division-club tbody tr.removed:not(.champion),
-table.division-club tbody tr.relegated:not(.champion) {
+table.division-club tbody tr.relegated:not(.champion),
+table.league-history tr.removed {
     background-color: #ffbfbf;
 }
 table.division tbody tr.removed td:nth-of-type(1),
@@ -270,4 +272,17 @@ table.division-club tbody tr td {
     padding: 5px;
     border: 1px solid #2b5873;
     width: 50px;
+}
+
+table.league-history {
+    border-collapse: collapse;
+    width: 100%;
+}
+table.league-history tr td {
+    padding: 5px;
+    border: 1px solid #2b5873;
+}
+table.league-history tr td:first-of-type {
+    text-align: center;
+    width: 100px;
 }
