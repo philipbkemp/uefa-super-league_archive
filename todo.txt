@@ -1,20 +1,20 @@
-https://en.wikipedia.org/wiki/Template:1911%E2%80%9312_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1912%E2%80%9313_in_European_football_(UEFA)
 
-Austria				Austrian First Class							-						+ https://en.wikipedia.org/wiki/1911%E2%80%9312_Austrian_First_Class
-Belgium				First Division									-						https://en.wikipedia.org/wiki/1911%E2%80%9312_Belgian_First_Division
-Croatia				Croatian First League						abandoned			-
-Denmark			KBUs A-raekke								groups				-
-England				First Division									-						https://en.wikipedia.org/wiki/1911%E2%80%9312_Football_League
-Germany			German Football Championship		knockout			-
-Greece				SEGAS Championship						stopped				-
-Hungary			Nemzeti Bajnoksag I						-						https://en.wikipedia.org/wiki/1911%E2%80%9312_Nemzeti_Bajnoks%C3%A1g_I
-Iceland				Urvalsdeild										-						+- https://en.wikipedia.org/wiki/1912_%C3%9Arvalsdeild (1912 => 1912/13)
-Ireland				Irish League									-						https://en.wikipedia.org/wiki/1911%E2%80%9312_Irish_League
-Italy					Prima Categoria								-						https://en.wikipedia.org/wiki/1911%E2%80%9312_Prima_Categoria
-Luxembourg		Luxembourg National Division			unreliable			-
-Malta					Maltese Premier League					-						https://en.wikipedia.org/wiki/1911%E2%80%9312_Maltese_Premier_League
-Netherlands		Netherlands Football League Cha...	regional				-
-Romania			Divizia A										-						https://en.wikipedia.org/wiki/1911%E2%80%9312_Divizia_A
-Scotland			Scottish Division One						-						https://en.wikipedia.org/wiki/1911%E2%80%9312_Scottish_Division_One
-Sweden				Svenska Serien								-						https://en.wikipedia.org/wiki/1911%E2%80%9312_Svenska_Serien
-Switzerland		Swiss Serie A									regional				-
+Austria				Austrian First Class							-						https://en.wikipedia.org/wiki/1912%E2%80%9313_Austrian_First_Class
+Belgium				First Division									-						https://en.wikipedia.org/wiki/1912%E2%80%9313_Belgian_First_Division
+Croatia				Croatian First League						stopped			
+Denmark			Danish National Football Tourna...	knockout			
+England				First Division									-				#		https://en.wikipedia.org/wiki/1912%E2%80%9313_Football_League#First_Division
+Germany			German Football Championship		knockout			
+Greece				SEGAS Championship						stopped				
+Hungary			Nemzeti Bajnoksag I						-						https://en.wikipedia.org/wiki/1912%E2%80%9313_Nemzeti_Bajnoks%C3%A1g_I
+Iceland				Urvalsdeild										-						https://en.wikipedia.org/wiki/1912_%C3%9Arvalsdeild
+Ireland				Irish League									-						https://en.wikipedia.org/wiki/1912%E2%80%9313_Irish_League
+Italy					Prima Categoria								regional				
+Luxembourg		Luxembourg National Division			unreliable			
+Malta					Maltese Premier League					-						https://en.wikipedia.org/wiki/1912%E2%80%9313_Maltese_Premier_League
+Netherlands		Netherlands Football League Cha...	regional				
+Romania			Divizia A										-						https://en.wikipedia.org/wiki/1912%E2%80%9313_Divizia_A
+Scotland			Scottish Division One						-						https://en.wikipedia.org/wiki/1912%E2%80%9313_Scottish_Division_One
+Sweden				Svenska Serien								-						https://en.wikipedia.org/wiki/1912%E2%80%9313_Svenska_Serien
+Switzerland		Swiss Serie A									regional				
