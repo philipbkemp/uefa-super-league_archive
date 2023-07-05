@@ -3,6 +3,7 @@ newCount = [];
 newCount[0] = 0;
 relegation = false;
 promotion = false;
+removedCount = 0;
 divisions.forEach(function(d,dIndex){
     newCount[dIndex+1] = 0;
 	rows = d.querySelectorAll("tbody tr");
@@ -15,6 +16,8 @@ divisions.forEach(function(d,dIndex){
             relegation = true;
         } else if ( ! r.classList.contains("removed") ) {
             newCount[dIndex]++;
+        } else if ( r.classList.contains("removed") ) {
+            removedCount++;
         }
     });
 });
@@ -26,7 +29,11 @@ for ( i=0 ; i!==newCount.length ; i++ ) {
     } else if ( newCount[i] <= 35 && newCount[i+1] !== 0 && newCount[i] !== 0 ) {
         console.log("Division " + divNames[i+1] + " should promote " + (40-newCount[i]) + " team(s)");
         break;
+    } else if ( newCount[i] === 40 && !relegation && !promotion ) {
+        console.log("Division " + divNames[i] + " should relegate " + (newCount[i]-35) + " team(s)");
+        break;
     } else {
         console.log("Division " + divNames[i] + " has " + newCount[i] + " team(s)");
     }
 }
+console.log(removedCount + " team(s) have left the league");

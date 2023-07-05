@@ -4,7 +4,7 @@ function sortTable(index) {
   var rows = Array.from(tbody.rows);
 
   rows.sort(function (a, b) {
-    if ( a.cells.length < 10 || b.cells.length < 10) {
+    if ( a.cells.length < 10 || b.cells.length < 10 ) {
       return 0;
     }
     var valueA_PPG = parseFloat(a.cells[12].textContent);
