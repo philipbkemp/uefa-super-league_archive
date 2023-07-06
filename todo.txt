@@ -1,20 +1,20 @@
-https://en.wikipedia.org/wiki/Template:1912%E2%80%9313_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1913%E2%80%9314_in_European_football_(UEFA)
 
 Austria				Austrian First Class							-						/
-Belgium				First Division									-						/
-Croatia				Croatian First League						stopped			
-Denmark			Danish National Football Tourna...	knockout			
+Belgium				First Division									stopped				/
+Croatia				Croatian First League						stopped				/
+Denmark			Danish National Football Tourna...	knockout			/
 England				First Division									-				#		/
-Germany			German Football Championship		knockout			
-Greece				SEGAS Championship						stopped				
+Germany			German Football Championship		knockout			/
+Greece				SEGAS Championship						stopped				/
 Hungary			Nemzeti Bajnoksag I						-						/
-Iceland				Urvalsdeild										-				y1		/
+Iceland				Urvalsdeild										unreliable	y1		/
 Ireland				Irish League									-						/
-Italy					Prima Categoria								regional				
-Luxembourg		Luxembourg National Division			unreliable			
+Italy					Prima Categoria								regional				/
+Luxembourg		Luxembourg National Division			unreliable			/
 Malta					Maltese Premier League					-						/
-Netherlands		Netherlands Football League Cha...	regional				
+Netherlands		Netherlands Football League Cha...	regional				/
 Romania			Divizia A										-						/
 Scotland			Scottish Division One						-						/
 Sweden				Svenska Serien								-						/
-Switzerland		Swiss Serie A									regional				
+Switzerland		Swiss Serie A									regional				/
