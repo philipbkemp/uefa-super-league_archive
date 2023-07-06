@@ -1,17 +1,17 @@
-https://en.wikipedia.org/wiki/Template:1913%E2%80%9314_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1914%E2%80%9315_in_European_football_(UEFA)
 
 Austria				Austrian First Class							-						/
 Belgium				First Division									stopped				/
 Croatia				Croatian First League						stopped				/
-Denmark			Danish National Football Tourna...	knockout			/
-England				First Division									-				#		/
+Denmark			Danish National Football Tourna...	regional				/
+England				First Division									suspended			/
 Germany			German Football Championship		knockout			/
 Greece				SEGAS Championship						stopped				/
 Hungary			Nemzeti Bajnoksag I						-						/
 Iceland				Urvalsdeild										unreliable	y1		/
-Ireland				Irish League									-						/
+Ireland				Irish League									suspended			/
 Italy					Prima Categoria								regional				/
-Luxembourg		Luxembourg National Division			unreliable			/
+Luxembourg		Luxembourg National Division			group				/
 Malta					Maltese Premier League					-						/
 Netherlands		Netherlands Football League Cha...	regional				/
 Romania			Divizia A										-						/

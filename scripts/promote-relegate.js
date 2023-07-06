@@ -1,4 +1,6 @@
 divisions = document.querySelectorAll("table.division");
+oldCount = [];
+oldCount[0] = 0;
 newCount = [];
 newCount[0] = 0;
 relegation = false;
@@ -6,8 +8,10 @@ promotion = false;
 removedCount = 0;
 divisions.forEach(function(d,dIndex){
     newCount[dIndex+1] = 0;
+    oldCount[dIndex+1] = 0;
 	rows = d.querySelectorAll("tbody tr");
 	rows.forEach(function(r,rIndex){
+        oldCount[dIndex]++;
         if ( r.classList.contains("promoted") ) {
             newCount[dIndex-1]++;
             promotion = true;
@@ -17,6 +21,7 @@ divisions.forEach(function(d,dIndex){
         } else if ( ! r.classList.contains("removed") ) {
             newCount[dIndex]++;
         } else if ( r.classList.contains("removed") ) {
+            relegation = true;
             removedCount++;
         }
     });
@@ -36,4 +41,4 @@ for ( i=0 ; i!==newCount.length ; i++ ) {
         console.log("Division " + divNames[i] + " has " + newCount[i] + " team(s)");
     }
 }
-console.log(removedCount + " team(s) have left the league");
+console.log(removedCount + " team(s) have left the league",newCount);
