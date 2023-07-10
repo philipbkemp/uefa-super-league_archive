@@ -1,20 +1,23 @@
-https://en.wikipedia.org/wiki/Template:1915%E2%80%9316_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1916%E2%80%9317_in_European_football_(UEFA)
 
-Austria				Austrian First Class							-						-
-Belgium				First Division									stopped				-
-Croatia				Croatian First League						stopped				-
-Denmark			Danish National Football Tourna...	knockout			-
-England				First Division									suspended			-
-Germany			German Football Championship		knockout			-
-Greece				SEGAS Championship						stopped				-
-Hungary			Nemzeti Bajnoksag I						suspended			-
-Iceland				Urvalsdeild										-				y1		-
-Ireland				Irish League									suspended			-
-Italy					Prima Categoria								regional				-
-Luxembourg		Luxembourg National Division			-						-
-Malta					Maltese Premier League					suspended			-
-Netherlands		Netherlands Football League Cha...	regional				-
-Romania			Divizia A										suspended			-
-Scotland			Scottish Division One						-						-
-Sweden				Svenska Serien								-						-
-Switzerland		Swiss Serie A									regional				-
+WW1:	1914 -> 1918
+WW2:	1939 -> 1945
+
+Austria				Austrian First Class							-						/
+Belgium				First Division									stopped				/
+Croatia				Croatian First League						stopped				/
+Denmark			Danish National Football Tourna...	regional				/
+England				First Division									suspended			/
+Germany			German Football Championship		knockout			/
+Greece				SEGAS Championship						stopped				/
+Hungary			Nemzeti Bajnoksag I						-						/
+Iceland				Urvalsdeild										-				y1		/
+Ireland				Irish League									suspended			/
+Italy					Prima Categoria								regional				/
+Luxembourg		Luxembourg National Division			-						/
+Malta					Maltese Premier League					-						/
+Netherlands		Netherlands Football League Cha...	regional				/
+Romania			Divizia A										suspended			/
+Scotland			Scottish Division One						-						/
+Sweden				Svenska Serien								suspended			/
+Switzerland		Swiss Serie A									regional				/
