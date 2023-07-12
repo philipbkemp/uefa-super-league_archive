@@ -21,24 +21,27 @@ divisions.forEach(function(d,dIndex){
         } else if ( ! r.classList.contains("removed") ) {
             newCount[dIndex]++;
         } else if ( r.classList.contains("removed") ) {
-            relegation = true;
             removedCount++;
         }
     });
 });
 divNames = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-for ( i=0 ; i!==newCount.length ; i++ ) {
-    if ( newCount[i] > 35 && newCount[i] !== 40 ) {
-        console.log("Division " + divNames[i] + " should relegate " + (newCount[i]-35) + " team(s)");
-        break;
-    } else if ( newCount[i] <= 35 && newCount[i+1] !== 0 && newCount[i] !== 0 ) {
-        console.log("Division " + divNames[i+1] + " should promote " + (40-newCount[i]) + " team(s)");
-        break;
-    } else if ( newCount[i] === 40 && !relegation && !promotion ) {
-        console.log("Division " + divNames[i] + " should relegate " + (newCount[i]-35) + " team(s)");
-        break;
-    } else {
-        console.log("Division " + divNames[i] + " has " + newCount[i] + " team(s)");
+if ( newCount[0] === 40 && !relegation ) {
+    console.log("Division A should relegated 5 team(s)");
+} else {
+    for ( i=0 ; i!==newCount.length ; i++ ) {
+        if ( newCount[i] > 35 && newCount[i] !== 40 ) {
+            console.log("Division " + divNames[i] + " should relegate " + (newCount[i]-35) + " team(s)");
+            break;
+        } else if ( newCount[i] <= 35 && newCount[i+1] !== 0 && newCount[i] !== 0 ) {
+            console.log("Division " + divNames[i+1] + " should promote " + (40-newCount[i]) + " team(s)");
+            break;
+        } else if ( newCount[i] === 40 && !relegation && !promotion ) {
+            console.log("Division " + divNames[i] + " should relegate " + (newCount[i]-35) + " team(s)");
+            break;
+        } else {
+            console.log("Division " + divNames[i] + " has " + newCount[i] + " team(s)");
+        }
     }
 }
 console.log(removedCount + " team(s) have left the league",newCount);
