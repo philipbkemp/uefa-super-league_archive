@@ -50,5 +50,7 @@ divisions.forEach(function(d) {
 	});
 	s.push('\t\t\t</tbody>\n\t\t</table>\n');
 })
+s.push('\t\t<table class="division">\n\t\t\t<thead>'+divisions[0].querySelectorAll("thead")[0].innerHTML.replace("Division A","Division NEWCLUB")+'</thead>\n\t\t\t<tbody>\n');
+s.push('\t\t\t</tbody>\n\t\t</table>\n');
 s.push('\t</body>\n<html>');
 console.log(s.join("\n"));
