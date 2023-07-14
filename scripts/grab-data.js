@@ -1,4 +1,5 @@
 header = false;
+champion = true;
 s = []
 flag = prompt("Country code");
 country = prompt("Country name");
@@ -13,6 +14,8 @@ document.querySelectorAll("table.superleague tr").forEach(function(row){
             } else {
                 clubName = cols[1].innerHTML;
             }
+            additional = "";
+            if ( champion ) { champion = false; additional = ",['champion']"; }
             s.push( "club('"+
                    clubName.trim()+"',"+
                    cols[2].innerHTML.trim()+","+
@@ -21,6 +24,7 @@ document.querySelectorAll("table.superleague tr").forEach(function(row){
                    cols[5].innerHTML.trim()+","+
                    cols[6].innerHTML.trim()+","+
                    cols[7].innerHTML.trim()+""+
+                   additional+
                    ");");
         }
     } else {

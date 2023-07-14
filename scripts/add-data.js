@@ -14,7 +14,7 @@ function addRow(cols,p,w,d,l,f,a) {
     cols[12].innerHTML = (pts /p).toFixed(2);
 }
 function club(teamName,p,w,d,l,f,a,flags=[],deduct=0) {
-    row = Array.from(document.querySelectorAll('.division tbody tr a')).find(el => el.textContent === teamName);
+    row = Array.from(document.querySelectorAll('.division tbody tr a')).find(el => el.textContent === teamName && el.getAttribute("href").indexOf("/"+country+"/") !== -1);
     if ( row ) {
         row = row.parentNode.parentNode;
         for ( i=0 ; i!==11 ; i++ ) {
@@ -30,7 +30,13 @@ function club(teamName,p,w,d,l,f,a,flags=[],deduct=0) {
         addRow(cols,p,w,d,l,f,a);
     } else {
         teamURL = prompt("Can't find " + teamName + ", provide URL:").toLowerCase();
-        row = Array.from(document.querySelectorAll('.division tbody tr a')).find(el => el.getAttribute("href").indexOf(teamURL) !== -1);
+        row = Array.from(document.querySelectorAll('.division tbody tr a')).find(el => {
+            h = el.getAttibute("href");
+            isC = h.indexOf("/"+country+"/");
+            isH = h.indexOf(teamURL+".html") !== -1;
+            isAltH = el.getAttribute("data-althref").indexOf(teamURL) !== -1;
+            return isC && (isH || isAltH);
+        });
         if ( row ) {
             row = row.parentNode.parentNode;
             for ( i=0 ; i!==11 ; i++ ) {
