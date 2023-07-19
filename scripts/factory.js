@@ -89,7 +89,7 @@ function tableSorter(print=true) {
 	  s.push('\t\t\t</tbody>\n\t\t</table>\n');
 	})
 	if ( print ) {
-		console.log(s.join("\n"));
+		dumpAll();
 	}
 }
 
