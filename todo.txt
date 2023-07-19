@@ -1,27 +1,27 @@
-https://en.wikipedia.org/wiki/Template:1921%E2%80%9322_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1922%E2%80%9323_in_European_football_(UEFA)
 
 WW2:	1939 -> 1945
 
-Austria					-						/
-Belgium					-						/
-Croatia					stopped				/
-Denmark				1929-30			/
-England					-						/
-Estonia					1929-30	y1		/
-Germany				1963-64			/
-Greece					1959-60			/
-Hungary				-						/
-Iceland					-				y1		/
-Lithuania				1922-23	y1		/
-Italy						1929-30			/
-Latvia					1921-22	y1		/
-Luxembourg			-						/
-Malta						-						/
-Netherlands			1956-57			/
-Northern Ireland		-						/
-Poland					1927-28	y1		/
-Republic of Ireland	-						/
-Romania				1934-35			/
-Scotland				-						/
-Sweden					-						/
-Switzerland			1933-34			/
+Austria					-						-
+Belgium					-						-
+Denmark				1929-30			-
+England					-						-
+Estonia					1929-30	y1		-
+Germany				1963-64			-
+Greece					1959-60			-
+Hungary				-						-
+Iceland					-				y1		-
+Lithuania				-				y1		-
+Italy						1929-30			-
+Latvia					-				y1		-
+Luxembourg			-						-
+Malta						-						-
+Netherlands			1956-57			-
+Northern Ireland		-						-
+Poland					1927-28	y1		-
+Republic of Ireland	-						-
+Romania				1934-35			-
+Scotland				-						-
+Sweden					1924-25			-
+Switzerland			1933-34			-
+Yugoslavia				1928-29			-
