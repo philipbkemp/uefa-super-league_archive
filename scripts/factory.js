@@ -10,7 +10,13 @@ function dumpAll() {
 	s.push('<!doctype html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8" />\n\t\t<meta name="viewport" content="width=device-width, initial-scale=1" />\n\t\t<title>'+document.getElementsByTagName("title")[0].innerHTML+'</title>');
 	s.push('\t\t<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />\n\t\t<link rel="stylesheet" href="../../styles.css" />\n\t\t<script src="../../scripts/factory.js"></script>\n\t</head>\n\t<body>');
 	s.push('\t\t<table class="nav-table">\n\t\t\t<tbody>\n\t\t\t\t<tr>\n\t\t\t\t\t<td><a href="'+document.querySelectorAll(".nav-table a")[0].getAttribute("href")+'">Previous Season</a></td>\n\t\t\t\t\t<td><a href="../../index.html">Home</a></td>');
-	s.push('\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n\t\t<h1>'+document.getElementsByTagName("h1")[0].innerHTML+'</h1>\n\t\t<!--<ul><li></li></ul>-->\n\t\t<hr />\n');
+	s.push('\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n\t\t<h1>'+document.getElementsByTagName("h1")[0].innerHTML+'</h1>\n\t\t');
+	if ( document.getElementsByTagName("ul").length !== 0 ) {
+		s.push('<ul>'+document.getElementsByTagName("ul")[0].innerHTML+'</ul>');
+	} else {
+		s.push('<!--<ul><li></li></ul>-->');
+	}
+	s.push('\n\t\t<hr />\n');
 	doneNewClubDiv = false;
 	divisions.forEach(function(d) {
 		s.push('\t\t<table class="division">\n\t\t\t<thead>'+d.querySelectorAll("thead")[0].innerHTML+'</thead>\n\t\t\t<tbody>\n');

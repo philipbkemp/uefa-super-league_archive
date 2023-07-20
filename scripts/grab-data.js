@@ -6,6 +6,7 @@ switch (flag.toLowerCase()) {
     case "aut": country = "Austria"; break;
     case "bel": country = "Belgium"; break;
     case "che": country = "Switzerland"; break;
+    case "csk": country = "Czechoslovakia"; break;
     case "deu": country = "Germany"; break;
     case "dnk": country = "Denmark"; break;
     case "eir": country = "Ireland"; break;
@@ -27,7 +28,7 @@ switch (flag.toLowerCase()) {
     case "swe": country = "Sweden"; break;
     default: country = prompt("Country name");
 }
-remove = prompt("Which positions are regelgated?").split(",");
+remove = prompt("Which positions are relegated?").split(",");
 s.push("country='"+flag+"';\ncountryName='"+country+"';");
 document.querySelectorAll("table.superleague tr").forEach(function(row){
     if ( header ) {
