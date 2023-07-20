@@ -1,6 +1,12 @@
 function newSeason() {
 	seasonBuilder();
 	tableSorter(false);
+	divisions = document.querySelectorAll("table.division");
+	newDivisionSize = [];
+	divisions.forEach(function(d){
+		newDivisionSize.push(d.querySelectorAll("tbody tr").length);
+	});
+	alert(newDivisionSize);
 	dumpAll();
 }
 
@@ -10,13 +16,13 @@ function dumpAll() {
 	s.push('<!doctype html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8" />\n\t\t<meta name="viewport" content="width=device-width, initial-scale=1" />\n\t\t<title>'+document.getElementsByTagName("title")[0].innerHTML+'</title>');
 	s.push('\t\t<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />\n\t\t<link rel="stylesheet" href="../../styles.css" />\n\t\t<script src="../../scripts/factory.js"></script>\n\t</head>\n\t<body>');
 	s.push('\t\t<table class="nav-table">\n\t\t\t<tbody>\n\t\t\t\t<tr>\n\t\t\t\t\t<td><a href="'+document.querySelectorAll(".nav-table a")[0].getAttribute("href")+'">Previous Season</a></td>\n\t\t\t\t\t<td><a href="../../index.html">Home</a></td>');
-	s.push('\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n\t\t<h1>'+document.getElementsByTagName("h1")[0].innerHTML+'</h1>\n\t\t');
+	ul = "";
 	if ( document.getElementsByTagName("ul").length !== 0 ) {
-		s.push('<ul>'+document.getElementsByTagName("ul")[0].innerHTML+'</ul>');
+		ul = '<ul>'+document.getElementsByTagName("ul")[0].innerHTML+'</ul>';
 	} else {
-		s.push('<!--<ul><li></li></ul>-->');
+		ul = '<!--<ul><li></li></ul>-->';
 	}
-	s.push('\n\t\t<hr />\n');
+	s.push('\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t</tbody>\n\t\t</table>\n\t\t<h1>'+document.getElementsByTagName("h1")[0].innerHTML+'</h1>\n\t\t'+ul+'\n\t\t<hr />\n');
 	doneNewClubDiv = false;
 	divisions.forEach(function(d) {
 		s.push('\t\t<table class="division">\n\t\t\t<thead>'+d.querySelectorAll("thead")[0].innerHTML+'</thead>\n\t\t\t<tbody>\n');
@@ -94,6 +100,12 @@ function tableSorter(print=true) {
 	  });
 	  s.push('\t\t\t</tbody>\n\t\t</table>\n');
 	})
+	divisions = document.querySelectorAll("table.division");
+	newDivisionSize = [];
+	divisions.forEach(function(d){
+		newDivisionSize.push(d.querySelectorAll("tbody tr").length);
+	});
+	alert(newDivisionSize);
 	if ( print ) {
 		dumpAll();
 	}
@@ -142,8 +154,11 @@ function seasonBuilder() {
 
 /* ADD DATA */
 country = countryName = "";
-function addRow(cols,p,w,d,l,f,a) {
+function addRow(cols,p,w,d,l,f,a,deduct=0) {
     pts = ((w*3)+d);
+    if ( deduct !== 0 ) {
+    	pts = pts + deduct;
+    }
     cols[2].innerHTML = p;
     cols[3].innerHTML = w;
     cols[4].innerHTML = d;
@@ -170,7 +185,7 @@ function club(teamName,p,w,d,l,f,a,flags=[],deduct=0) {
         if ( flags.indexOf("removed") !== -1 ) {
             row.classList.add("removed");
         }
-        addRow(cols,p,w,d,l,f,a);
+        addRow(cols,p,w,d,l,f,a,deduct);
     } else {
         teamURL = prompt("Can't find " + teamName + ", provide URL:").toLowerCase();
         row = Array.from(document.querySelectorAll('.division tbody tr a')).find(el => {
@@ -195,7 +210,7 @@ function club(teamName,p,w,d,l,f,a,flags=[],deduct=0) {
             if ( flags.indexOf("removed") !== -1 ) {
                 row.classList.add("removed");
             }
-            addRow(cols,p,w,d,l,f,a);
+            addRow(cols,p,w,d,l,f,a,deduct);
         } else {
             newRet = prompt("Is "+teamURL+" a 'newclub' or 'returning' club?").toLowerCase();
             lastLeague = document.querySelectorAll('.division');
@@ -221,7 +236,7 @@ function club(teamName,p,w,d,l,f,a,flags=[],deduct=0) {
             if ( flags.indexOf("removed") !== -1 ) {
                 newRow.classList.add("removed");
             }
-            addRow(cols,p,w,d,l,f,a);
+            addRow(cols,p,w,d,l,f,a,deduct);
             if ( newRet === "newclub" ) {
                 newRow.classList.add("newclub");
                 lastLeague.appendChild(newRow);

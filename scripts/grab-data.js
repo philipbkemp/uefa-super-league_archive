@@ -1,3 +1,6 @@
+if ( typeof deduct === "undefined" ) {
+    deduct = [];
+}
 header = false;
 champion = true;
 s = []
@@ -43,6 +46,13 @@ document.querySelectorAll("table.superleague tr").forEach(function(row){
             additional = "";
             if ( champion ) { champion = false; additional = ",['champion']"; }
             if ( remove.indexOf(cols[0].innerHTML.trim()) !== -1 ) { additional = ",['removed']";}
+            if ( deduct.indexOf(parseInt(cols[0].innerHTML.trim())) !== -1 ) {
+                if ( additional === "" ) {
+                    additional = ",[]";
+                }
+                deduction = prompt("How many points deducted from " + clubName.trim());
+                additional = additional + "," +deduction;
+            }
             s.push( "club('"+
                    clubName.trim()+"',"+
                    cols[2].innerHTML.trim()+","+
