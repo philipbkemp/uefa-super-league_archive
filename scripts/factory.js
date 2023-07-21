@@ -31,7 +31,7 @@ function dumpAll() {
 		}
 		rows = d.querySelectorAll("tbody tr");
 		rows.forEach(function(r){
-			s.push('\t\t\t\t<tr class="'+r.classList+'">'+r.innerHTML.trim()+'</tr>\n');
+			s.push('\t\t\t\t<tr class="'+r.classList+'">'+r.innerHTML.trim()+'</tr>');
 		});
 		s.push('\t\t\t</tbody>\n\t\t</table>\n');
 	})

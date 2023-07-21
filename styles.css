@@ -121,6 +121,13 @@ table.division {
 }
 table.division thead {
     background-color: #e9eef1;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+table.division thead tr:nth-of-type(2) {
+    position: relative;
+    top: -1px;
 }
 table.division thead tr th {
     font-size: 1.2rem;
