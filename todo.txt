@@ -1,22 +1,22 @@
-https://en.wikipedia.org/wiki/Template:1926%E2%80%9327_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1927%E2%80%9328_in_European_football_(UEFA)
 
 WW2:	1939 -> 1945
 
-Austria					-							/
-Belgium					-							/
-Czechoslovakia		-							/
-England					-							/
-Hungary				-							/
-Iceland					-					y1		/
-Luxembourg			-							/
-Malta						-							/
-Northern Ireland		-							/
-Republic of Ireland	-							/
-Scotland				-							/
-Sweden					-							/
+Austria					-							-
+Belgium					-							-
+Czechoslovakia		-							-
+England					-							-
+Hungary				-							-
+Iceland					-					y1		-
+Latvia					-					y1		RETURN
+Luxembourg			-							-
+Malta						-							-
+Northern Ireland		-							-
+Poland					-					y1		ADDED
+Republic of Ireland	-							-
+Scotland				-							-
+Sweden					-							-
 
-Latvia					1927-28	*	y1		/
-Poland					1927-28		y1		/
 Yugoslavia				1928-29				/
 Denmark				1929-30	*			/
 Estonia					1929-30		y1		/
@@ -29,3 +29,33 @@ Turkey					1937-38		y1		/
 Netherlands			1956-57	*			/
 Greece					1959-60				/
 Germany				1963-64				/
+
+
+year = prompt("What year are we looking for?");
+links = document.querySelectorAll(".navbox-inner")[0].querySelectorAll("th.navbox-group")[0].nextElementSibling.querySelectorAll("a");
+goodCountries = ["Latvia","Poland","Austria","Belgium","Czechoslovakia","England","Hungary","Iceland","Luxembourg","Malta","Northern Ireland","Republic of Ireland","Scotland","Sweden"];
+badCountries = ["Yugoslavia","Denmark","Estonia","Italy","Lithuania","Switzerland","Romania","Bulgaria","Turkey","Netherlands","Greece","Germany"];
+toOpen = [];
+links.forEach(function(l){
+    if ( goodCountries.indexOf(l.innerHTML) !== -1 ) {
+        toOpen.push( l.getAttribute("href") );
+        l.innerHTML = "";
+    } else if ( badCountries.indexOf(l.innerHTML ) !== -1 ) {
+        l.innerHTML = "";
+    } else if ( l.innerHTML === "'"+year ) {
+        c = l.parentNode.innerHTML.replace(/<[^>]+>[\s\S]*?<\/[^>]+>/g, '').trim();
+        if ( goodCountries.indexOf(c) !== -1 ) {
+            toOpen.push( l.getAttribute("href") );
+            l.parentNode.innerHTML = "";
+        } else if ( badCountries.indexOf(c) !== -1 ) {
+            l.parentNode.innerHTML = "";
+        }         
+    }
+});
+i = 250;
+for (const link of toOpen) {
+    setTimeout(() => {
+        window.open(link, '_blank','noopener');
+    }, i);
+    i = i + 250;
+}
