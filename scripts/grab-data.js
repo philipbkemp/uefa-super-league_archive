@@ -14,6 +14,7 @@ switch (flag.toLowerCase()) {
     case "dnk": country = "Denmark"; break;
     case "eir": country = "Ireland"; break;
     case "eng": country = "England"; break;
+    case "esp": country = "Spain"; break;
     case "grc": country = "Greece"; break;
     case "hrv": country = "Croatia"; break;
     case "hun": country = "Hungary"; break;
@@ -26,9 +27,11 @@ switch (flag.toLowerCase()) {
     case "mlt": country = "Malta"; break;
     case "nir": country = "Northern Ireland"; break;
     case "nld": country = "Netherlands"; break;
+    case "pol": country = "Poland"; break;
     case "rou": country = "Romania"; break;
     case "sco": country = "Scotland"; break;
     case "swe": country = "Sweden"; break;
+    case "yug": country = "Yugoslavia"; break;
     default: country = prompt("Country name");
 }
 remove = prompt("Which positions are relegated?").split(",");
