@@ -1,9 +1,9 @@
 year = prompt("What year are we looking for?");
 links = document.querySelectorAll(".navbox-inner")[0].querySelectorAll("th.navbox-group")[0].nextElementSibling.querySelectorAll("a");
-goodCountries = ["Austria","Belgium","Czechoslovakia","England","Hungary","Luxembourg","Malta","Northern Ireland","Republic of Ireland","Scotland","Sweden","Spain"];
-badCountries = ["Denmark","Italy","Switzerland","Romania","Turkey","Netherlands","Greece","Germany"];
-oneYearCountriesGood = ["Latvia","Poland","Yugoslavia"];
-oneYearCountriesBad = ["Iceland","Bulgaria","Estonia","Lithuania"];
+goodCountries = ["Italy","Denmark","Austria","Belgium","Czechoslovakia","England","Hungary","Luxembourg","Malta","Northern Ireland","Republic of Ireland","Scotland","Sweden","Spain"];
+badCountries = ["Switzerland","Romania","Turkey","Netherlands","Greece","Germany"];
+oneYearCountriesGood = ["Estonia","Latvia","Poland","Yugoslavia"];
+oneYearCountriesBad = ["Iceland","Bulgaria","Lithuania","Albania","Finland"];
 toOpen = [];
 links.forEach(function(l){
     if ( goodCountries.indexOf(l.innerHTML) !== -1 ) {
@@ -18,7 +18,7 @@ links.forEach(function(l){
             l.parentNode.innerHTML = "";
         } else if ( oneYearCountriesBad.indexOf(c) !== -1 ) {
             l.parentNode.innerHTML = "";
-        }         
+        }
     }
 });
 i = 250;
