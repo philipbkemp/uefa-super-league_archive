@@ -10,7 +10,7 @@ function newSeason() {
 	dumpAll();
 }
 
-function dumpAll() {
+function dumpAll(includeNewClubs=true) {
 	divisions = document.querySelectorAll("table.division");
 	s = [];
 	s.push('<!doctype html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8" />\n\t\t<meta name="viewport" content="width=device-width, initial-scale=1" />\n\t\t<title>'+document.getElementsByTagName("title")[0].innerHTML+'</title>');
@@ -35,7 +35,7 @@ function dumpAll() {
 		});
 		s.push('\t\t\t</tbody>\n\t\t</table>\n');
 	})
-	if ( ! doneNewClubDiv ) {
+	if ( ! doneNewClubDiv && includeNewClubs ) {
 		s.push('\t\t<table class="division">\n\t\t\t<thead>'+divisions[0].querySelectorAll("thead")[0].innerHTML.replace("Division A","Division NEWCLUB")+'</thead>\n\t\t\t<tbody>\n\t\t\t</tbody>\n\t\t</table>\n');
 	}
 	s.push('\t</body>\n<html>');

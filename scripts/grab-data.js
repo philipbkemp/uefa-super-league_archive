@@ -16,6 +16,7 @@ switch (flag.toLowerCase()) {
     case "eng": country = "England"; break;
     case "esp": country = "Spain"; break;
     case "est": country = "Estonia"; break;
+    case "fin": country = "Finland"; break;
     case "grc": country = "Greece"; break;
     case "hrv": country = "Croatia"; break;
     case "hun": country = "Hungary"; break;

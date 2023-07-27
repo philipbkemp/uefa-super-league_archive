@@ -1,28 +1,28 @@
-https://en.wikipedia.org/wiki/Template:1929%E2%80%9330_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1930%E2%80%9331_in_European_football_(UEFA)
 
 WW2:	1939 -> 1945
 
-Austria					-							-
-Belgium					-							-
-Czechoslovakia		-							-
-Denmark				-							-	RETURN
-England					-							-
-Estonia					-					y1		-	ADDED
-Hungary				-							-
-Italy						-							-	RETURN
-Latvia					-					y1		-
-Luxembourg			-							-
-Malta						-							-
-Northern Ireland		-							-
-Poland					-					y1		-
-Republic of Ireland	-							-
-Scotland				-							-
-Spain					-							-
-Sweden					-							-
-Yugoslavia				-             				-
+Austria					-							/
+Belgium					-							/
+Czechoslovakia		-							/
+Denmark				-							/
+England					-							/
+Estonia					-					y1		/
+Finland					-					y1		/	NEW
+Hungary				-							/
+Iceland					-					y1		/	RETURN
+Italy						-							/
+Latvia					-					y1		/
+Luxembourg			-							/
+Malta						-							/
+Northern Ireland		-							/
+Poland					-					y1		/
+Republic of Ireland	-							/
+Scotland				-							/
+Spain					-							/
+Sweden					-							/
 
-Iceland					1930-31		y1		/
-Finland					1930-31		y1		/
+Yugoslavia				-             				/
 Lithuania				1931-32	*	y1		/
 Albania					1932-33		y1		/
 Switzerland			1933-34				/
