@@ -22,6 +22,7 @@ switch (flag.toLowerCase()) {
     case "hun": country = "Hungary"; break;
     case "irl": country = "Republic of Ireland"; break;
     case "isl": country = "Iceland"; break;
+    case "isr": country = "Israel"; break;
     case "ita": country = "Italy"; break;
     case "ltu": country = "Lithuania"; break;
     case "lux": country = "Luxembourg"; break;
