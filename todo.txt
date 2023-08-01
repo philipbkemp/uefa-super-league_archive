@@ -34,8 +34,3 @@ Turkey					1937-38		y1		-
 Netherlands			1956-57	*			-
 Greece					1959-60				-
 Germany				1963-64				-
-
-hun/mtk_budapest_fc		=>	mtk_hungaria_fc
-lva/olympija					=>	olimpija_liepaja
-lva/amatieris					=>	amatieris_riga
-ltu/freya_klaipeda			=>	freya_vfr_klaipeda
