@@ -6,6 +6,7 @@ champion = true;
 s = []
 flag = prompt("Country code");
 switch (flag.toLowerCase()) {
+    case "alb": country = "Albania"; break;
     case "aut": country = "Austria"; break;
     case "bel": country = "Belgium"; break;
     case "che": country = "Switzerland"; break;

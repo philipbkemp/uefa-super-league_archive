@@ -10,6 +10,22 @@ function newSeason() {
 	dumpAll();
 }
 
+function numberTeams() {
+	divs = [];
+	divisions = document.querySelectorAll("table.division");
+	divisions.forEach(function(d,dIndex){
+		divs[dIndex] = 0;
+		rows = d.querySelectorAll("tbody tr");
+		rows.forEach(function(r,rIndex){
+			p = r.querySelectorAll("td");
+			p[0].innerHTML = rIndex+1;
+			divs[dIndex]++;
+		});
+	});
+	newclubs = divs.pop();
+	alert(divs);
+}
+
 function dumpAll(includeNewClubs=true) {
 	divisions = document.querySelectorAll("table.division");
 	s = [];

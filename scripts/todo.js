@@ -1,7 +1,7 @@
 year = prompt("What year are we looking for?");
 links = document.querySelectorAll(".navbox-inner")[0].querySelectorAll("th.navbox-group")[0].nextElementSibling.querySelectorAll("a");
 goodCountries = ["Palestine","Italy","Denmark","Austria","Belgium","Czechoslovakia","England","Hungary","Luxembourg","Malta","Northern Ireland","Republic of Ireland","Scotland","Sweden","Spain"];
-oneYearCountriesGood = ["Lithuania","Iceland","Estonia","Latvia","Poland","Finland"];
+oneYearCountriesGood = ["Lithuania","Iceland","Estonia","Latvia","Finland","Albania"];
 toOpen = [];
 links.forEach(function(l){
     if ( goodCountries.indexOf(l.innerHTML) !== -1 ) {
