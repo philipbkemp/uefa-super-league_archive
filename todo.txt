@@ -1,38 +1,39 @@
-https://en.wikipedia.org/wiki/Template:1933%E2%80%9334_in_European_football_(UEFA)
+https://en.wikipedia.org/wiki/Template:1934%E2%80%9335_in_European_football_(UEFA)
 
 WW2:	1939 -> 1945
 
-Albania					-					y1		-
-Austria					-							-
-Belgium					-							-
-Czechoslovakia		-							-
-Denmark				-							-
-England					-							-
-Estonia					-					y1		-
-Finland					-					y1		-
-France					-							-
-Hungary				-							-
-Iceland					-					y1		-
-Italy						-							-
-Latvia					-					y1		-
-Lithuania				-					y1		-
-Luxembourg			-							-
-Malta						-							-
-Northern Ireland		-							-
-Palestine (Isreal)	-							-
-Republic of Ireland	-							-
-Scotland				-							-
-Spain					-							-
-Sweden					-							-
-Switzerland			-							-
+Albania					-					y1		/
+Austria					-							/
+Belgium					-							/
+Cyprus					-							/
+Czechoslovakia		-							/
+Denmark				-							/
+England					-							/
+Estonia					-					y1		/
+Finland					-					y1		/
+France					-							/
+Hungary				-							/
+Iceland					-					y1		/
+Italy						-							/
+Latvia					-					y1		/
+Lithuania				-					y1		/
+Luxembourg			-							/
+Malta						-							/
+Northern Ireland		-							/
+Palestine (Isreal)	-							/
+Poland					-					y1		/
+Portugal					-							/
+Republic of Ireland	-							/
+Romania				-							/
+Scotland				-							/
+Spain					-							/
+Sweden					-							/
+Switzerland			-							/
+Yugoslavia				-							/
 
-Poland					1934-35		y1		-RETURN
-Yugoslavia				1934-35				-
-Romania				1934-35	*			-
 Bulgaria					1937-38				-
 Turkey					1937-38		y1		-
 Netherlands			1956-57	*			-
 Greece					1959-60				-
 Germany				1963-64				-
 
-mtk_hungaria_fc => mtk_hungaria_fc.html

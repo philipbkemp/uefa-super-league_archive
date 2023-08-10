@@ -11,6 +11,7 @@ switch (flag.toLowerCase()) {
     case "bel": country = "Belgium"; break;
     case "che": country = "Switzerland"; break;
     case "csk": country = "Czechoslovakia"; break;
+    case "cyp": country = "Cyprus"; break;
     case "deu": country = "Germany"; break;
     case "dnk": country = "Denmark"; break;
     case "eir": country = "Ireland"; break;
@@ -33,6 +34,7 @@ switch (flag.toLowerCase()) {
     case "nir": country = "Northern Ireland"; break;
     case "nld": country = "Netherlands"; break;
     case "pol": country = "Poland"; break;
+    case "prt": country = "Portugal"; break;
     case "rou": country = "Romania"; break;
     case "sco": country = "Scotland"; break;
     case "swe": country = "Sweden"; break;
